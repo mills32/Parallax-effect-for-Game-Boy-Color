@@ -21,6 +21,8 @@ MAKE YOUR OWN PARALLAX
 
 BUGS
 ----
-You can make the parallax Perfect by copying the data straight to VRAM with the CPU_TRANSFER function, butthis means that you'll have to use the function at the very beginning of the vblank period, if not, you'llsee garbage on the screen.
+You can make the parallax Perfect by copying the data straight to VRAM with the CPU_TRANSFER function, butthis means that you'll have to use the function at the very beginning of the vblank period, if not, you'll see garbage on the screen.
 So by Using the DMA_Transfer, we solve it, copying the data from RAM to Vram very fast, But we will becopying data moved the previous frame and there is 1 pixel delay, mainly noticeable when making drastic direction changes.
    
+Even Using the DMA I found it is very easy to wrtite to VRAM outside vblank and produce garbage.
+
