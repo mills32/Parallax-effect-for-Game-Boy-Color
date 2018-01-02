@@ -10,9 +10,13 @@ MAKE YOUR OWN PARALLAX
 ----------------------
 
 1- You have to generate a seamless metatile of 32x32 pixels, and then create a 64x64 pixels square containing 4 metatiles in a grid. 
+
 2- Generate 8 copies of the 64x64 square, each of them has to be displaced one pixel to the left relative to the previous copy.
+
 3- Paste each 64x64 copy separately on GBTD. In split options use 8x8 top to bottom, left to right.Then paste the next copy, until you fill 512 tiles.
+
 4-Create a map arranged like Parallax_Map_Clean, and some tiles after tile 15, like Map_Tiles.
+
 5- Now you can paste other tiles on top of the background on the map, and that's all.
 
 BUGS
