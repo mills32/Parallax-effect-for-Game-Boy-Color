@@ -6,6 +6,8 @@ This is a Very fast parallax for game boy color, it uses a metatile of 32x32 pix
 I was trying to make a 8x8 tile parallax, like in the Toki Tori game, But I simply had no room for all I need. I think they compressed the data or something I don't know how to do.
 So I reduced the size and now it works and a lot faster, so this can be used with games.
 
+The code uses the SCX and SCY registers to copy a specific frame of parallax animation, so it does not depend on anything else.
+
 MAKE YOUR OWN PARALLAX
 ----------------------
 
