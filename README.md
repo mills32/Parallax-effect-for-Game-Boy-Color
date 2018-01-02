@@ -1,6 +1,6 @@
-######################
+
 Parallax for CGB
-######################
+----------------
 
 This is a Very fast parallax for game boy color, it uses a metatile of 32x32 pixels (4x4 Tiles).
 I was trying to make a 8x8 tile parallax, like in the Toki Tori game, But I simply had no room for all I need. I think they compressed the data or something I don't know how to do.
